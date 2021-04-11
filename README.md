@@ -1,6 +1,9 @@
 # README
 ログイン、投稿、コメント（非同期）、いいね（非同期）、フォロー、検索機能の実装練習 2
 
+追加
+Bookers2(課題アプリケーション)ログイン時の住所自動検索機能
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
