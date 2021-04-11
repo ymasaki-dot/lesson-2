@@ -1,5 +1,6 @@
 # README
-Bookers2（課題アプリケーション)のデバック学習
+ログイン、投稿、コメント（非同期）、いいね（非同期）、フォロー、検索機能の実装練習 2
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.

@@ -9,4 +9,12 @@ class Book < ApplicationRecord
 	def favorited_by?(user)
 		favorites.where(user_id: user.id).exists?
 	end
+	
+	def self.search_for(content,method)
+		if method == 'perfect'
+			Book.where(title: content)
+		else
+			Book.where('title LIKE ?','%'+content+'%')
+		end
+	end
 end
